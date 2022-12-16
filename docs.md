@@ -4,11 +4,8 @@
 
 * **http://217.182.68.227:4242/**
 
-  <_The URL Structure (path only, no root url)_>
-
 * **Method:**
-  
-  <_The request type_>
+ 
 
   `GET` | `POST`
   
