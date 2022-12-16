@@ -1,6 +1,5 @@
 **API Brief services and ports**
 ----
-  <Use this API to get logs and fill the differents informations asked>
 
 * **http://217.182.68.227:4242/**
 
@@ -31,3 +30,32 @@
 
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "Bad login" }`
+
+### Endpoint /log/<id_log>
+
+* **Method:**
+ 
+
+  `GET`
+  
+*  **URL Params**
+
+  * 
+   
+
+* **Data Params**
+
+  **Required:**
+ 
+   `token=[string]`
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Token:** `{token}`
+ 
+* **Error Response:**
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `{ error : "Bad token" }`
+
