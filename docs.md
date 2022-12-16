@@ -57,5 +57,36 @@
 * **Error Response:**
 
   * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Bad token" }`
+    **Content:** `"Bad token"`
+
+### Endpoint /fill
+
+* **Method:**
+ 
+
+  `POST`
+  
+*  **URL Params**
+
+  * 
+   
+
+* **Data Params**
+
+  **Required:**
+ 
+   `token=[string]`
+   `log_id=[string]`
+   `service=[string]`
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Token:** `{token}`
+ 
+* **Error Response:**
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `"Bad token|Bad log ID"`
+
 
