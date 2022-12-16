@@ -4,6 +4,9 @@
 
 * **http://217.182.68.227:4242/**
 
+
+### Endpoint /login
+
 * **Method:**
  
 
@@ -11,15 +14,9 @@
   
 *  **URL Params**
 
-   <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
-
    **Required:**
  
-   `id=[integer]`
-
-   **Optional:**
- 
-   `photo_id=[alphanumeric]`
+   `token=[string]`
 
 * **Data Params**
 
