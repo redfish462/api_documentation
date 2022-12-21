@@ -89,4 +89,65 @@
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `"Bad token|Bad log ID"`
 
+### Endpoint /autolog
+
+* **Method:**
+ 
+
+  `GET`
+  
+*  **URL Params**
+
+  * 
+   
+
+* **Data Params**
+
+  **Required:**
+ 
+   `token=[string]`
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Log_id:** `{log_id}`
+    **Log:** `{log}`
+ 
+* **Error Response:**
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `"Bad token|Bad log ID"`
+    
+* **Method:**
+ 
+
+  `POST`
+  
+*  **URL Params**
+
+  * 
+   
+
+* **Data Params**
+
+  **Required:**
+ 
+   `token=[string]`
+   `log_id=[int]`
+   `service_name=[string]`
+
+* **Success Response:**
+
+  * **Code:** 201 <br />
+    **GOOD**
+ 
+* **Error Response:**
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `"Bad token|Bad log ID"`
+    
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `"TRY AGAIN|BAD"`
+
+
 
