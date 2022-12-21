@@ -117,6 +117,8 @@
 
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `"Bad token|Bad log ID"`
+
+--------------------------
     
 * **Method:**
  
