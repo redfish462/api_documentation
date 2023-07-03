@@ -4,7 +4,7 @@
 * **http://217.182.68.227:4242/**
 
 
-### Endpoint /login
+### Endpoint /login/
 
 * **Method:**
  
@@ -31,7 +31,7 @@
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "Bad login" }`
 
-### Endpoint /log/<id_log>
+### Endpoint /log/<id_log>/
 
 * **Method:**
  
@@ -59,7 +59,7 @@
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `"Bad token"`
 
-### Endpoint /fill
+### Endpoint /fill/
 
 * **Method:**
  
@@ -89,7 +89,7 @@
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `"Bad token|Bad log ID"`
 
-### Endpoint /autolog
+### Endpoint /autolog/
 
 * **Method:**
  
