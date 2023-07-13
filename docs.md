@@ -105,7 +105,7 @@
  
    `token=[string]`
    `log_id=[string]`
-   `service=[string]`
+   `service_and_receiver=[string]`
 
 * **Success Response:**
 
