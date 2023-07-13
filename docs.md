@@ -31,7 +31,7 @@
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "Bad login" }`
 
-### Endpoint /logs
+### Endpoint /logs/
 
 * **Method:**
  
