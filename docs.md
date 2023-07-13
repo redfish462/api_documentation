@@ -31,6 +31,34 @@
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "Bad login" }`
 
+### Endpoint /logs
+
+* **Method:**
+ 
+
+  `GET`
+  
+*  **URL Params**
+
+  * 
+   
+
+* **Data Params**
+
+  **Required:**
+ 
+   `token=[string]`
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Token:** `[{log1],[log2],[log3]]`
+ 
+* **Error Response:**
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `"Bad token"`
+
 ### Endpoint /log/<id_log>/
 
 * **Method:**
