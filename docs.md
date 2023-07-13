@@ -80,7 +80,7 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Token:** `{token}`
+    **Log:** `{log}`
  
 * **Error Response:**
 
@@ -109,8 +109,7 @@
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
-    **Token:** `{token}`
+  * **Code:** 200, 400 <br />
  
 * **Error Response:**
 
